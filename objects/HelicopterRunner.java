@@ -1,7 +1,7 @@
 class HelicopterRunner{
 	public static void main(String[] args){
 		System.out.println("helicopter runner is running");
-		//copy
+		//copy and store
 		Helicopter helicopter1=new Helicopter();
 		Helicopter helicopter2=new Helicopter();
 		Helicopter helicopter3=new Helicopter();
