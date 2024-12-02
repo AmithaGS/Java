@@ -1,0 +1,44 @@
+<style>
+    .outer {
+        border: 5px solid red;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-template-rows: auto 1fr auto;
+    }
+    header, aside, main , footer {
+        border: 2px solid black;
+        padding: 20px;
+    }
+
+    article {
+        border: 3px solid blue;
+        height: 100px;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 5px;
+    }
+
+    header {
+        grid-column: 1/3;
+    }
+
+    footer {
+        grid-column: 1/3;
+    }
+</style>
+<body>
+    <div class="outer">
+        <header>Header</header>
+        <aside>Aside</aside>
+        <main>
+            <article>A1</article>
+            <article>A2</article>
+            <article>A3</article>
+        </main>
+        <footer>Footer</footer>
+    </div>
+</body>
